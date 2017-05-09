@@ -8,7 +8,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.wipro.bank.entity.Account.Account;
+import com.wipro.bank.entity.Account;
 
 public class AppTest {
 

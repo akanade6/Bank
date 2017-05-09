@@ -4,7 +4,7 @@ package com.wipro.bank.assessment;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.wipro.bank.entity.Account.Account;
+import com.wipro.bank.entity.Account;
 
 public class App 
 {
@@ -24,7 +24,7 @@ public class App
 			}
 
 		}
-		System.out.println(emp1);
+		//System.out.println(emp1);
 		return emp1;
 		
 
@@ -43,7 +43,7 @@ public class App
 		if(emp2.size()==0){
 			emp2=null;
 		}
-		System.out.println(emp2);
+		//System.out.println(emp2);
 		return emp2;
 
 

@@ -1,4 +1,4 @@
-package com.wipro.bank.entity.Account;
+package com.wipro.bank.entity;
 
 public class Account {
 	private int accountID;
