@@ -16,23 +16,35 @@ public class App
 
 	public Account getAccountDetailsByID(int id)
 	{
-		return null;
-	
+		Account emp1=null;
+		for(Account e:accounts)
+		{
+			if(e.getAccountID()==id){
+				emp1=e;
+			}
+
+		}
+		System.out.println(emp1);
+		return emp1;
+		
+
 
 
 	}
 
 	public List<Account> getAccountDetailsByBalance(double amount)
 	{
-		return null;
-		
+		return emp2;
+	
+
 
 	}
 
 	public static void main( String[] args )
 	{
 
-	
+		
+
 
 	}
 }
