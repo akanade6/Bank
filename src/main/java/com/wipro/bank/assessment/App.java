@@ -4,7 +4,7 @@ package com.wipro.bank.assessment;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.wipro.bank.entity.Account;
+import com.wipro.bank.entity.Account.Account;
 
 public class App 
 {
